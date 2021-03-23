@@ -22,8 +22,8 @@ The folder contains 7 files
 
 ## How to run it
 
-After installing `docker`, `docker-compose`, you can simply run `docker-compose up --build` in the root directory of the folder that you stored all these files.
-
+- After installing `docker`, `docker-compose`, you can simply run `docker-compose up --build` in the root directory of the folder that you stored all these files.
+- Or you can install Jenkins, and run Jenkinsfile which is simply running `docker-compose up --build` the same here. There might be some problems if you use Windows, since `sh` command does not work, you need to install git bash following this instruction - [stackoverflow](https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows)
 ## How to test it
 
 You can now open the browser [http://localhost/](http://localhost). And go to the following routes
